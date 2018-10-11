@@ -11,13 +11,7 @@ implement the simple blog by The Django Girls tutorial.
 
 - [Deploy!](https://djangogirlsjapan.gitbooks.io/workshop_tutorialjp/deploy/)
 - Procfile
-- requirements.txt
 - runtime.txt
-
-```powershell
-pip freeze > requirements.txt
-pip install -r requirements.txt
-```
 
 ## 環境構築
 
@@ -38,4 +32,11 @@ python manage.py migrate blog
 
 python manage.py createsuperuser
 
+```
+
+## requirements.txtのセーブとロード
+
+```powershell
+pip freeze > requirements.txt
+pip install -r requirements.txt
 ```
